@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>안드로이드팀 중간발표</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/league.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<section style="text-align: center; position: relative">
+				<h1 style="position:absolute;" class="fragment fade-out">Hufs' Restaurant</h1>
+				<h1 style="position:absolute;" class="fragment">Hufstaurant</h1>
+			</section>
+
+			<section>
+				<section>
+					<h2>앱 개발 이상편</h2>
+				</section>
+				<section>
+					<h3>신기술 도입</h3>
+					<img src="https://cdn-images-1.medium.com/max/800/1*99YiKjwB2TliKVA-yGogNQ.png" alt="">
+				</section>
+				<section>
+						<h3>분담</h3>
+						<h4>디자인, 프론트엔드, 백엔드</h4>
+						<img src="https://spin.atomicobject.com/wp-content/uploads/first-job-2.jpg"  height="450"  alt="">
+				</section>
+				<section>
+						<h3>앱 완성 & 배포</h3>
+						<img src="https://media2.s-nbcnews.com/i/newscms/2017_33/2123641/170818-better-phone-app-illustration-se-135p_2cc173dc0a56b9be2bbf30a2ea08a4b8.jpg"  height="500"  alt="">
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>앱 개발 현실편</h2>
+				</section>
+				<section>
+					<div class="fragment">
+						<h4 >안드로이드 버튼 하나 만드는 데 한달 걸림</h4>
+						<img src="http://shotonframe.com/wp-content/uploads/2017/09/catbutton.gif" alt="">
+					</div>
+					</section>
+				<section>
+					<p>한달 뒤</p>
+					<div class="fragment">
+					<h4 >안드로이드 때려치고 웹으로 넘어감</h4>
+						<img height="300" src="http://mblogthumb1.phinf.naver.net/MjAxNzAxMTdfMTYz/MDAxNDg0NjQ1MjY3MDA2.pSKAzjoLLxCZqAvzTwqSRDZ_PAPY9Za67zFEBsWnAPkg.NsaaPH4cPwOrYFfHwfQ3-nqJmPiVDRjgjMcudziFo9Qg.JPEG.mnjjrb1007/%EB%A6%AC%EC%A0%9C%EB%A1%9C_%EC%86%90%EB%B2%88%EC%97%AD.jpg?type=w800" alt="">
+						<p>원점으로..</p>
+					</div>
+				</section>
+				<section>
+					<h3>학회에선 갑자기 IT트렌트 공부시킴</h3>
+					<img src="https://pa1.narvii.com/6094/ee75976bbe2d9f9814c5db4684292d4b19539884_hq.gif" alt="">
+					<p>팀원들 개발 기술 초토화</p>
+				</section>
+				<section>
+					<h4>결론은??</h4>
+					<h4 class="fragment">디자인, 프론트엔드, 백엔드</h4>
+					<div class="fragment" >
+						<h4>혼자 다함</h4>
+						<img src="https://cdn-images-1.medium.com/max/1000/0*OGDziEJLMPJpS-5_.jpg" height="400" alt="">
+					</div>
+				</section>
+				<section>
+					<h3>발표 주제</h3>
+					<div class="fragment">
+						<p>하소연 겸</p>
+						<p>지금까지 개발한 것들의 포트폴리오</p>
+					</div>	
+					<p class="fragment">취업할 때 써먹을려고 정리함</p>
+				</section>
+			</section>
+				
+
+			<section>
+				<section>
+					<h2>1. 식당 데이터 수집</h2>
+				</section>
+				<section>
+					<h3>백엔드</h3>
+					<p>Node.js + MongoDB</p>
+					<img style="float: left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" height="300" alt="">
+					<img style="float: right" src="http://jstricks.com/wp-content/uploads/2014/10/mongodb-gui-tools.png" height="300" alt="">
+					<a target="_blank" href="https://github.com/16Yongjin/hufsFoodData">https://github.com/16Yongjin/hufsFoodData</a>
+				</section>
+				<section>
+					<h3>프론트엔드</h3>
+					<p>Vue.js + Bootstrap</p>
+					<img style="float: left" height="330" src="https://vuejs.org/images/logo.png" alt="">
+					<img style="float: right" height="330" src="https://getbootstrap.com/assets/img/bootstrap-stack.png" alt="">
+				</section>
+				<section>
+					<h4>식당 정보, 위치 정보, 사진 업로드, 수정 가능</h4>
+					<img src="data_upload1.png" height="550" alt="">
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>2. Foodle</h2>
+				</section>
+				<section>
+					<h3>앱 개발 진척 X</h3>
+					<h4 class="fragment">발표용 총알받이 앱을 만듦</h4>
+				</section>
+				<section>
+				</section>
+				<section>
+					<img height="300" src="https://camo.githubusercontent.com/ad0317ff725729575905d03f3acb6d7b9a6324da/687474703a2f2f7675652d6d6174657269616c2d6f6c642e6e65746c6966792e636f6d2f6173736574732f6c6f676f2d7675652d6d6174657269616c2d64656661756c742e706e67" alt="">
+					<img style="float: left" height="600" src="foodle.gif" alt="">
+					<p>Vue Material</p>
+					<p>Progressive Web App</p>
+					<p>Native App look and feel</p>					
+				</section>
+				<section>
+					<p>+
+						<a target="_blank" href="./foodle-homepage/index.html">Foodle 소개 페이지</a>
+					</p>
+					<p>Parallax Scrolling</p>
+					<img height="400" src="foodle-home.png" alt="">
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>3. Hufstaurant</h2>
+				</section>
+				<section>
+					<h3>학술제 2주 남음</h3>
+					<p class="fragment">앱 완성 0%</p>
+				</section>
+				<section>
+					<h3>디자인</h3>
+					<img class="fragment" height="400" src="draft1.jpg" alt="">
+					<p class="fragment">이거 한장 받음</p>
+				</section>
+				<section>
+					<p>이대로 가면 안될 것 같아서</p>
+					<img height="350" src="http://www.ttearth.com/world/asia/korea/seoul/img/ewha_university/ewha_university00.jpg" alt="">
+				</section>
+				<section>
+					<h3>혼자 UX 흐름도 그림</h3>
+					<img height="450" src="draft2.jpg" alt="">
+				</section>
+				<section>
+					<h3>Vuetify + Firebase</h3>
+					<img height="330" src="https://vuetifyjs.com/static/doc-images/logo.svg" alt="">
+					<img style="margin-left: 120px;" height="330" src="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" alt="">
+					<p>Single Page Application</p>					
+				</section>
+				<section>
+					<h3>Vuex로 상태 관리</h3>
+					<img height="400" src="https://vuex.vuejs.org/en/images/vuex.png" alt="">
+					<p>복잡도 낮춤</p>
+				</section>
+				<section>
+					<h3>Firebase Cloud Functions 사용</h3>
+					<img height="300" src="https://bypeopletechnologies.com/blog/wp-content/uploads/2017/04/5-1.png" alt="">
+					<p>서버 만드는 수고 덜음 (Severless)</p>
+				</section>
+				<section>
+					<h3>들어간 기능</h3>
+					<div class="fragment">
+						<p>식당 추천</p>
+						<p>식당 좋아요 표시</p>
+						<p>학식 보기</p>
+						<p>주변 맛집 둘러보기</p>
+						<p>리뷰 남기기</p>
+					</div>
+				</section>
+				<section>
+					<h2>Demo time</h2>
+					<a target="_blank" href="https://foodle-add-ict.firebaseapp.com">Hufstaurant</a>
+				</section>
+				<section>
+					<h3>+ 데이터 수정 페이지</h3>
+					<a href="https://food.yjdev.com/">Feed Food Picture</a>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h3>4. 느낀점 & 보완할 점</h3>
+				</section>
+				<section>
+					<h3>느낀점</h3>
+					<p class="fragment">1. 힘들다.</p>
+					<p class="fragment">2. 데이터팀도 고생 많이함.</p>
+
+					<div class="fragment">
+						<p>3. 웹이 미래다.(개발 속도 빠름 + 배포하기 쉬움)</p>
+					</div>
+				</section>
+				<section>
+					<h3>보완할 점</h3>
+					<p class="fragment">1. 안드로이드는 이제 그만했으면 좋겠다.</p>
+					<p class="fragment">2. 할 거면 커리큘럼 제대로 짜놓고 시작하자.</p>
+					<p class="fragment">3. 학회에서 프로젝트에 집중할 수 있는 환경을 만들자.</p>
+				</section>
+			</section>
+
+			<section>
+				<h2>감사합니다.</h2>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+			dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+		});
+	</script>
+</body>
+
+</html>
